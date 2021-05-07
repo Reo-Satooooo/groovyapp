@@ -1,4 +1,4 @@
-# Groovyで簡単なアプリケーションを作成してみる
+# SpringBoot+Groovyで簡単なアプリケーションを作成してみる
 
 パッケージの設定は以下の通り  
 [Spring.io](https://start.spring.io/)
