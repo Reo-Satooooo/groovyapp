@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+    <style>
+        body{font-size: 16pt;color: #999999}
+        h1{font-size: 100pt;}
+    </style>
+</head>
+<body>
+    <h1>Hello!</h1>
+    <p th:text="${msg}">${msg}</p>
+    <form method="post" action="/send">
+        <input type="text" name="text1" th:value="${value}" /><!--レンダリングによりvalueの値が上書きされる-->
+        <input type="submit" value="Click"/>
+    </form>
+</body>
+</html>
